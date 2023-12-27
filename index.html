@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Fakeshoes</title>
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <header class="header">
+                <div class="container-logo">
+                    <img src="img/logo-fakeshoes-removebg-preview (1).png" alt="Fakeshoes" class="logo" style="height: 60px; width: 120px;">
+                </div>
+
+                <div class="container-search">
+                    <div class="input">
+                        <input type="text" placeholder="Buscar por Modelos">
+                        <i class="bi bi-search icono-busqueda"></i>
+                    </div>
+                </div>
+
+                <div class="container-publicidad">
+                    <img src="img/desk2.avif" alt="cupom primeira compra" style="height: 60px; width: 290px;">
+                </div>
+
+                <div class="container-ubicacion">
+                    <a href="#">
+                        <i class="bi bi-geo-alt"></i>
+                        <span class="txt-enviar">Envio para </span>
+                        <span class="txt-lugar">Todo Brasil</span>
+                    </a>
+                </div>
+
+                <div class="nav-menu">
+                        <button class="boton-categoria" id="todos">Todos nossos produtos</button>
+                        <button class="boton-categoria" id="Seleções">Seleções</button>
+                        <button class="boton-categoria" id="Brasileirão">Brasileirão</button>
+                        <button class="boton-categoria" id="Europeus">Europeus</button>
+                </div>
+
+                <div class="info-user">
+                    <a href="Login/cadastro.html">Crie sua conta</a>
+                    <a href="Login/login.html">Entrar</a>
+                    <a href="carrito.html">
+                        <i class="bi bi-cart icono-carrito"></i>
+                        <span class="num-en-carrito" id="num-en-carrito">0</span>
+                    </a>
+                </div>
+            </header>
+        </div>
+
+        <!-- main - contenedor de productos -->
+        <main id="main">
+            <h2 class="titulo-seccion" id="titulo-seccion">Todos os Produtos</h2>
+            
+            <div id="contenedor-productos" class="contenedor-productos">
+                <div class="producto" id="celular-01">
+                    <img src="img/selecao-brasil/camisa1.jpeg" alt="Descrição da imagem" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Camisa Seleção Brasileira 22/23</h3>
+                        <p class="producto-precio">R$ 74.00 <span class="descuento">12% OFF</span></p>
+                        <p class="producto-tipo-envio">Envio gratis</p>
+                    </div>
+                
+                </div>
+
+                <div class="producto">
+                    <img src="img/selecao-argentina/camisa1.jpeg" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Camisa Seleção Argentina 22/23 </h3>
+                        <p class="producto-precio">$79.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envio gratis</p>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="img/selecao-franca/camisa1.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Camisa Seleção Francesa 22/23 </h3>
+                        <p class="producto-precio">$74.00 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envio gratis</p>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="img/celulares/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="img/celulares/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="img/celulares/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="img/celulares/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="img/celulares/01.png" alt="" class="producto-imagen">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo"> Motorola Moto E13 64gb 2gb Ram Azul Turquesa </h3>
+                        <p class="producto-precio">$59.000 <span class="descuento">18% OFF</span></p>
+                        <p class="producto-tipo-envio">Envío gratis</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contenedor de detalle de producto visitado -->
+            <div class="contenedor-producto-visitado" id="contenedor-producto-visitado">
+                <div class="producto-visitado">
+                    <span class="cerrar" onclick="cerrar()"><i class="bi bi-x-circle"></i></span>
+                    <div class="fotos-galeria">
+                        <div class="miniaturas">
+                            <img src="./img/selecao-brasil/camisa1.jpeg" alt="" class="img-miniatura">
+                            <img src="./img/selecao-brasil/camisa2.jpeg" alt="" class="img-miniatura">
+                            <img src="./img/selecao-brasil/camisa3.jpeg" alt="" class="img-miniatura">
+                        </div>
+                        <div class="foto-principal">
+                            <img src="./img/selecao-brasil/camisa1.jpeg" alt="" id="foto-principal">
+                        </div>
+                    </div>
+                    <div class="info-producto">
+                        <h2 class="titulo-producto">Nome do Time Camisa Especial</h2>
+                        <p class="precio-producto">R$59.000 <span class="descuento">18% OFF</span></p>
+                        <!-- Adicione mais informações sobre o produto conforme necessário -->
+                    </div>
+                    <div class="info-compra">
+                        <span class="info-stock">Estoque disponível</span>
+                        <span class="cantidad">Cantidad: 1 unidade <span class="stock">(5 disponíveis)</span></span>
+                        <button class="btn-agregar-al-carrito">Adicionar ao Carrinho</button>
+                        <span class="vendedor">Vendido por <a href="#">TODO CAMISAS</a></span>
+    
+                        <div class="beneficios">
+                            <div class="beneficio">
+                                <div class="col">
+                                    <i class="bi bi-arrow-return-left"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#">Devolución Gratis</a> Tenes 30 días desde que lo recibis
+                                </div>
+                            </div>
+                            <div class="beneficio">
+                                <div class="col">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#">Compra protegida</a> recibí el producto que esperabas o te devolvemos tu dinero.
+                                </div>
+                            </div>
+                            <div class="beneficio">
+                                <div class="col">
+                                    <i class="bi bi-trophy"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#">Mercado Puntos</a> Sumá 900 puntos.
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <style>
+        footer {
+            background: #3483fa;
+            padding: 30px 0; /* Adjusted padding for top and bottom */
+        }
+        .container-foter {
+            width: 90%; /* Changed to a percentage for responsiveness */
+            margin: auto;
+            height: 200px;
+            display: flex;
+            justify-content: space-between; /* Adjusted to space the footer-content evenly */
+            flex-wrap: wrap; /* Added for responsiveness */
+        }
+        .footer-content {
+            width: 30%; /* Adjusted width to make it responsive */
+            margin-bottom: 20px; /* Added some space between footer-content */
+        }
+        h3 {
+            font-size: 24px; /* Slightly reduced font size */
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .footer-content p {
+            color: white;
+            width: 100%;
+            text-align: center; /* Centered text */
+            padding: 7px;
+        }
+        .footer-content ul {
+            text-align: center;
+            padding: 0;
+            margin: 0; /* Removed default margin for ul */
+        }
+        .list li {
+            text-align: center;
+            list-style-type: none;
+            padding: 7px;
+        }
+        .list li::before {
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 100%;
+            width: 0;
+            height: 2px;
+            background: #343434;
+            transition-duration: .5s;
+        }
+        .list li:hover::before {
+            width: 70px;
+        }
+        .social-icons {
+            text-align: center;
+            padding: 0;
+            margin-top: 10px; /* Added some space between social-icons and the heading */
+        }
+        .social-icons li {
+            display: inline-block;
+            text-align: center;
+            padding: 5px;
+        }
+        .social-icons i {
+            color: white;
+            font-size: 25px;
+        }
+        a {
+            text-decoration: none;
+            color: white; /* Set link color to white */
+        }
+        a:hover {
+            color: #000000;
+        }
+        .social-icons i:hover {
+            color: #000000;
+        }
+        .bottom-bar {
+            background: #343434;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .bottom-bar p {
+            color: #3483fa;
+            margin: 0;
+            font-size: 16px;
+            padding: 7px;
+        }
+    </style>
+<body>
+    <footer>
+        <div class="container-foter">
+            <div class="footer-content">
+                <h3>Contatos</h3>
+                <p>fakeshoes@gmail.com</p>
+                <p>+55 47 9729-8752</p>
+            </div>
+            <div class="footer-content">
+                <h3>Loja</h3>
+                 <ul class="list">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="carrito.html">Carrinho</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Siga-nos em nossas redes socias</h3>
+                <ul class="social-icons">
+                 <li><a href="https://facebook.com"><i class="bi bi-facebook"></i></a></li>
+                 <li><a href="https://twitter.com/"><i class="bi bi-twitter-x"></i></a></li>
+                 <li><a href="https://instagram.com"><i class="bi bi-instagram"></i></a></li>
+                 <li><a href="https://api.whatsapp.com/send?phone=554797298752&text=Ei%20Julio%20cus%C3%A3o%20porrada%20%C3%A9%20solu%C3%A7%C3%A3o">
+                    <i class="bi bi-whatsapp"></i></a></li>
+                </ul>
+                </div>
+        </div>
+
+    </footer>
+
+    <div class="bottom-bar">
+        <p>&copy; 2024 Fakeshoes. <span style="color: #6aa6ff;">Edinei Samuel</span></p>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
